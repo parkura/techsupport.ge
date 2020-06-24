@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(image.png);
+
+}
+.navbar-brand img{
+    height:40px ;
+    width: 50px;
+    
+}
+#soso2:hover{
+    font-size: 22px;
+    background: lightseagreen;
+   font-weight: bold;
+   transition: 0.3s;
+   }
+   
+#soso3:hover{
+    font-size: 22px;
+    background: lightseagreen;
+   font-weight: bold;
+   transition: 0.3s;
+   }
+   
+#soso4:hover{
+    font-size: 22px;
+    background: lightseagreen;
+   font-weight: bold;
+   transition: 0.3s;
+   }
+   
+#soso5:hover{
+    font-size: 22px;
+    background: lightseagreen;
+   font-weight: bold;
+   transition: 0.3s;
+    }
+    #navbarTogglerDemo03{
+        font-size: 21px;
+        padding-left: 40px;
+    }
+    .soso7{
+        color: black;
+        padding-top: 10px;
+    }
+    #soso {
+        color: black;
+    }
+    #soso:hover{
+    background-color: lightseagreen;
+    
+    }
+    
+    .text{
+        margin: 60px;
+        text-align: center;
+        justify-content: space-between;
+        color: white;
+    }
+    
+    .main{
+        font-size: 35px;
+    }
+
+
+    .main-box{
+        display: flex;
+        width: 70%;
+        margin: auto;
+        justify-content: space-between;
+        color: white;
+    }
+
+    #paragra{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+
+
+  .otxi{
+    width: 350px;
+    height: 250px;
+    background-color: white;
+    border-radius: 3%;
+    color: black;
+    margin: 20px;
+    background-color: darkgray;
+    text-align: center;
+    
+}
+.xazi4{
+    background-color: rgb(223, 150, 16);
+    color: white;
+    height: 5px;
+}
+
+.otxi p{
+    color:white;
+}
+
+
+
+.s-m{
+    margin: 120px auto;
+    justify-content: space-around;
+    display: flex;
+    max-width: 700px;
+}
+
+.s-m a{
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 28px;
+    color: black;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    transition: 0.4s all;
+    line-height: 58px;
+    cursor: pointer;
+    background: darkgray;
+}
+
+h4{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+@media only screen and (max-width: 1120px) {
+
+
+
+.main-box{
+    flex-wrap: wrap;
+    
+}
+
+
+}

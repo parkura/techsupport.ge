@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Acme', sans-serif;
+    background: url(contact.jpg);
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+}
+.navbar-brand img{
+    height:40px ;
+    width: 50px;
+    
+}
+#soso2:hover{
+    font-size: 22px;
+    background: lightseagreen;
+   font-weight: bold;
+   transition: 0.3s;
+   }
+   
+#soso3:hover{
+    font-size: 22px;
+    background: lightseagreen;
+   font-weight: bold;
+   transition: 0.3s;
+   }
+   
+#soso4:hover{
+    font-size: 22px;
+    background: lightseagreen;
+   font-weight: bold;
+   transition: 0.3s;
+   }
+   
+#soso5:hover{
+    font-size: 22px;
+    background: lightseagreen;
+   font-weight: bold;
+   transition: 0.3s;
+    }
+    #navbarTogglerDemo03{
+        font-size: 21px;
+        padding-left: 40px;
+    }
+    .soso7{
+        color: black;
+        padding-top: 10px;
+    }
+    #soso {
+        color: black;
+    }
+    #soso:hover{
+    background-color: lightseagreen;
+    
+    }
+    
+
+    /*priceing*/
+
+
+    .hash {
+        margin: 0 auto;
+        padding: 0 auto;
+        text-align: center;
+        
+        height: 100px;
+        width: 20%;
+    }
+    .hash h1{
+        margin-top: 90px;
+        color: #ffffff;
+    }
+    
+    
+    .container th{
+        color: #fff;
+    }
+    tbody tr{
+        color: #fff;
+    }
+

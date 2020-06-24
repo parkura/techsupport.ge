@@ -1,0 +1,292 @@
+
+/*header*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Acme', sans-serif;
+}
+.navbar-brand img{
+    height:40px ;
+    width: 50px;
+    
+}
+#soso2:hover{
+    font-size: 22px;
+    background: lightseagreen;
+   font-weight: bold;
+   transition: 0.3s;
+   }
+   
+#soso3:hover{
+    font-size: 22px;
+    background: lightseagreen;
+   font-weight: bold;
+   transition: 0.3s;
+   }
+   
+#soso4:hover{
+    font-size: 22px;
+    background: lightseagreen;
+   font-weight: bold;
+   transition: 0.3s;
+   }
+   
+#soso5:hover{
+    font-size: 22px;
+    background: lightseagreen;
+   font-weight: bold;
+   transition: 0.3s;
+    }
+    #navbarTogglerDemo03{
+        font-size: 21px;
+        padding-left: 40px;
+    }
+    .soso7{
+        color: black;
+        padding-top: 10px;
+    }
+    #soso {
+        color: black;
+    }
+    #soso:hover{
+    background-color: lightseagreen;
+    
+    }
+
+    /*contact*/
+
+.contact{
+    background-image: url(contact.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    
+}
+.contact h1{
+
+text-align: center;
+padding-top: 40px;
+color: #fff;
+letter-spacing: 4px;
+}
+
+h4{
+    color: #fff;
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.container .box {
+    text-align: center;
+}
+.container .box .icon .fa{
+    font-size: 80px;
+    cursor: pointer;
+}
+
+
+.container .box .icon h3,
+.container .box .icon h4{
+    position: relative;
+    font-weight: 400px;
+    margin: 0;
+    padding: 2px 5px;
+    font-size: 24px;
+    
+    
+}
+
+.container .box .icon h4{
+    font-weight: 600;
+    margin: 5px 0;
+    font-style: 30px;
+}
+
+.contact img{
+    display: block;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 59px;
+     width: 557px;;
+      border-radius: 8px;
+}
+
+.contact img:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.3); 
+  }
+
+
+  .fa-envelope {
+    -webkit-text-stroke: 3px darkcyan; /* font color */
+    color: darkblue;
+  }
+  .fa-phone-square {
+    -webkit-text-stroke: 3px darkcyan; /* font color */
+    color: darkblue;
+  }
+  .fa-map-marker{
+    -webkit-text-stroke: 3px darkcyan; /* font color */
+    color: darkblue;
+  }
+
+
+
+
+  @media only screen and (max-width: 992px) {
+
+
+
+.contact img{
+        
+        margin-top: 29px;
+         
+         border-radius: 8px;
+         max-width: 80%;
+   }
+
+    
+  }
+  @media only screen and (max-width: 770px) {
+
+
+
+
+    .contact img{
+        
+        margin-top: 55px;
+         
+         border-radius: 8px;
+         height: 300px;
+         width: 500px;
+   }
+
+
+
+  }
+
+
+
+
+  @media only screen and (max-width: 659px) {
+    
+    .container .box .icon h4{
+        font-size: 15px;
+    }
+    .contact img{
+        
+        margin-top: 59px;
+         
+         border-radius: 8px;
+         max-width: 80%;
+   }
+  }
+
+  @media only screen and (max-width: 577px) {
+
+
+    .contact img{
+        
+         margin-top: 59px;
+          height: 30%;
+          
+          border-radius: 8px;
+         
+        
+    }
+.contact, .container { width:100%;
+
+}
+
+    .fa-envelope {
+        -webkit-text-stroke: 3px darkcyan; /* font color */
+        color: darkblue  font-size: 30px;
+      }
+      .fa-phone-square {
+        -webkit-text-stroke: 3px darkcyan; /* font color */
+        color: darkblue,  font-size: 30px;
+      }
+      .fa-map-marker{
+        -webkit-text-stroke: 3px darkcyan; /* font color */
+        color: darkblue, font-size: 30px;
+      }
+
+
+      .contact{
+   width: 100%;
+}
+    
+
+
+
+
+    .container .box .icon h4{
+        font-size: 10px;
+    }
+
+    .container{
+        
+        margin: 0 auto;
+        align-items: center;
+    
+        padding-top: 30px;
+    }
+
+    .container .box {
+        text-align: center;
+    }
+  }
+
+
+
+
+  @media only screen and (max-width: 514px) {
+
+
+
+
+
+
+
+
+    .contact img{
+        
+        margin-top: 59px;
+         
+         border-radius: 8px;
+         max-width: 80%;
+   }
+
+
+
+
+
+
+
+
+  }
+
+  @media only screen and (max-width: 444px) {
+
+
+
+    .contact img{
+        
+        margin-top: 59px;
+         height: 200px;
+         border-radius: 8px;
+         max-width: 80%;
+   }
+
+  }
